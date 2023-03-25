@@ -1,0 +1,95 @@
+.App {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.app__container {
+  padding: 1rem;
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app__main_title {
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0px 0px 15px #000000;
+}
+
+.app__protocols {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+  gap: 1rem;
+  grid-auto-flow: dense;
+}
+
+.app__section {
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+@media (min-width: 447px) {
+  .section__server,
+  .section__client {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 664px) {
+  .app_feature {
+    grid-column: span 3;
+  }  
+}
+
+@media (min-width: 447px) {
+  .section__redirect {
+    grid-column: span 2;
+  }  
+}
+
+@media (min-width: 663px) {
+  .section__redirect {
+    grid-column: span 1;
+  }  
+}
+
+.app_feature > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(min(100%,200px), 1fr));
+}
+
+.app__section_header {
+  margin-bottom: 1rem;
+}
+
+.app__protocol_range_code {
+  color: #ffffff7a;
+}
+
+.section__information {
+  background-color: #4c749496;
+  border: 2px solid #4c7494;
+}
+
+.section__success {
+  background-color: #4caf50ba;
+  border: 2px solid #8BC34A;
+}
+
+.section__redirect {
+  background-color: #a16a3b91;
+  border: 2px solid #a16a3b;
+}
+
+.section__client {
+  background-color: #bf553396;
+  border: 2px solid #bf5533;
+}
+
+.section__server {
+  background-color: #ff000066;
+  border: 2px solid red;
+}
