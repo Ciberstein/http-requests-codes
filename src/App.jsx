@@ -58,6 +58,10 @@ function App() {
                 <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402' target='_blank'><b>402</b> - Payment Required</a></li>
                 <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403' target='_blank'><b>403</b> - Forbidden</a></li>
                 <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404' target='_blank'><b>404</b> - Not Found</a></li>
+                <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/405' target='_blank'><b>405</b> - Method Not Allowed</a></li>
+                <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/406' target='_blank'><b>406</b> - Not Acceptable</a></li>
+                <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/407' target='_blank'><b>407</b> - Proxy Authentication Required</a></li>
+                <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/408' target='_blank'><b>408</b> - Request Timeout</a></li>
                 <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/409' target='_blank'><b>409</b> - Conflict</a></li>
                 <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/410' target='_blank'><b>410</b> - Gone</a></li>
                 <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/411' target='_blank'><b>411</b> - Length Required</a></li>
