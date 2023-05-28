@@ -55,6 +55,7 @@ function App() {
               <ul>
                 <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400' target='_blank'><b>400</b> - Bad request</a></li>
                 <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401' target='_blank'><b>401</b> - Unauthorized</a></li>
+                <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/402' target='_blank'><b>402</b> - Payment Required</a></li>
                 <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403' target='_blank'><b>403</b> - Forbidden</a></li>
                 <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404' target='_blank'><b>404</b> - Not Found</a></li>
                 <li><a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/409' target='_blank'><b>409</b> - Conflict</a></li>
